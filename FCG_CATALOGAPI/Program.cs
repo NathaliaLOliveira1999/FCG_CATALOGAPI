@@ -45,10 +45,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Register repositories
 builder.Services.AddScoped<IGameRepository, GameRepository>();
 builder.Services.AddScoped<ILibraryRepository, LibraryRepository>();
+builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 
 // Register application services (Scoped is appropriate when using DbContext)
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<ILibraryService, LibraryService>();
+builder.Services.AddScoped<ISalesService, SalesService>();
 
 builder.Services.AddAutoMapper(cfg => { /* configuration */ }, AppDomain.CurrentDomain.GetAssemblies());
 

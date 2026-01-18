@@ -58,6 +58,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FCG_CATALOGAPI.Controllers.SalesController",
+    "Method": "Create",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sale",
+        "Type": "FCG_CATALOGAPI.Models.DTO.SalesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FCG_CATALOGAPI.Controllers.SalesController",
+    "Method": "GetByIdClient",
+    "RelativePath": "api/Sales/GetByIdClient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idClient",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FCG_CATALOGAPI.Controllers.SalesController",
+    "Method": "GetByIdGame",
+    "RelativePath": "api/Sales/GetByIdGame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSale",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FCG_CATALOGAPI.Controllers.LibraryController",
     "Method": "GetByIdClient",
     "RelativePath": "Library/IdCliente",

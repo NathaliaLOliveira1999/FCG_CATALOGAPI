@@ -38,5 +38,17 @@ namespace FCG_CATALOGAPI.Services
                 return ServiceResult.Fail(ex.Message);
             }
         }
+
+        public decimal GetValues(List<int> games)
+        {
+            var retorno = new decimal();
+            foreach (var item in games)
+            {
+                var game = _gameRepository.GetById(item);
+                if (game != null)
+                    retorno += game.PRICE;
+            }
+            return retorno;
+        }
     }
 }

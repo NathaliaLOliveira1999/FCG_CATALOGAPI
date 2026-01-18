@@ -8,5 +8,6 @@ namespace FCG_CATALOGAPI.Interfaces.Services
         List<GameDto> GetAll();
         GameDto? GetById(int id);
         ServiceResult Add(GameDto game);
+        decimal GetValues(List<int> games);
     }
 }
