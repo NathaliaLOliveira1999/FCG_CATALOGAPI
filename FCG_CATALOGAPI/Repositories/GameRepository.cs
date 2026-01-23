@@ -16,10 +16,19 @@ namespace FCG_CATALOGAPI.Repositories
 
         public Game? GetById(int id) => _context.Games.Find(id);
 
-        public void Add(Game game)
+        public ServiceResult Add(Game game)
         {
-            _context.Games.Add(game);
-            _context.SaveChanges();
+            try
+            {
+                game.IdGames = 0;
+                _context.Games.Add(game);
+                _context.SaveChanges();
+                return ServiceResult.Ok(game);
+            }
+            catch (Exception ex)
+            {
+                return ServiceResult.Fail(ex.Message);
+            }
         }
     }
 }

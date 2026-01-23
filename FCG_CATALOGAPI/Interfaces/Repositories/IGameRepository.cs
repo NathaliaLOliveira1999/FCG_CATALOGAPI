@@ -6,6 +6,6 @@ namespace FCG_CATALOGAPI.Interfaces.Repositories
     {
         IEnumerable<Game> GetAll();
         Game? GetById(int id);
-        void Add(Game game);
+        ServiceResult Add(Game game);
     }
 }

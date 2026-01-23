@@ -1,0 +1,18 @@
+services:
+  fcg_catalogapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fcg_catalogapi:v2
+    ports:
+      - "8082:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=PCGPROJ;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True
+    networks:
+      - pcg-network
+    restart: unless-stopped
+
+networks:
+  pcg-network:
+    external: true

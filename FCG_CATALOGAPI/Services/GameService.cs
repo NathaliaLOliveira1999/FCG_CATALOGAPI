@@ -31,8 +31,7 @@ namespace FCG_CATALOGAPI.Services
         {
             try
             {
-                _gameRepository.Add(_mapper.Map<Game>(game));
-                return ServiceResult.Ok(game);
+                return _gameRepository.Add(_mapper.Map<Game>(game));
             }
             catch (Exception ex) {
                 return ServiceResult.Fail(ex.Message);

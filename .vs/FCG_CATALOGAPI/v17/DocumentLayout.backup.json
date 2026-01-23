@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\models\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\models\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\interfaces\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|solutionrelative:fcg_catalogapi\\interfaces\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{636ED76D-AEF0-4462-8FB3-A91753701BCE}|FCG_CATALOGAPI\\FCG_CATALOGAPI.csproj|c:\\fiap proj\\fcg_catalogapi\\fcg_catalogapi\\interfaces\\services\\isalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +47,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Program.cs",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Program.cs",
+              "RelativeToolTip": "FCG_CATALOGAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:24:05.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesDto.cs",
+              "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Models\\DTO\\SalesDto.cs",
+              "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Models\\DTO\\SalesDto.cs",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Models\\DTO\\SalesDto.cs",
+              "RelativeToolTip": "FCG_CATALOGAPI\\Models\\DTO\\SalesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T03:45:55.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesRepository.cs",
+              "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Repositories\\SalesRepository.cs",
+              "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Repositories\\SalesRepository.cs",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Repositories\\SalesRepository.cs",
+              "RelativeToolTip": "FCG_CATALOGAPI\\Repositories\\SalesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:08:01.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Interfaces\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Interfaces\\Services\\IGameService.cs",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Interfaces\\Services\\IGameService.cs",
+              "RelativeToolTip": "FCG_CATALOGAPI\\Interfaces\\Services\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T01:28:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Services\\GameService.cs",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Services\\GameService.cs",
+              "RelativeToolTip": "FCG_CATALOGAPI\\Services\\GameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T01:26:11.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SalesService.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Services\\SalesService.cs",
               "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Services\\SalesService.cs",
               "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Services\\SalesService.cs",
               "RelativeToolTip": "FCG_CATALOGAPI\\Services\\SalesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T22:16:13.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ISalesService.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Interfaces\\Services\\ISalesService.cs",
               "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Interfaces\\Services\\ISalesService.cs",
@@ -52,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SalesController.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "FCG_CATALOGAPI\\Controllers\\SalesController.cs",
               "ToolTip": "C:\\FIAP PROJ\\FCG_CATALOGAPI\\FCG_CATALOGAPI\\Controllers\\SalesController.cs",
               "RelativeToolTip": "FCG_CATALOGAPI\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T21:55:11.058Z",
               "EditorCaption": ""

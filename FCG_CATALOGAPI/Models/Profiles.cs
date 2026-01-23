@@ -8,8 +8,8 @@ namespace FCG_CATALOGAPI.Models
         public Profiles()
         {
             // Mapeia DTO -> Entidade
-            CreateMap<LibrariesDto, Library>()
-                    .ForMember(dest => dest.IdGames, opt => opt.Ignore());
+            CreateMap<LibrariesDto, Library>();
+            CreateMap<GameDto, Game>();
 
 
             // (opcional) Entidade -> DTO
