@@ -35,6 +35,7 @@ namespace FCG_CATALOGAPI.Services
 
                 var sale = new Sales()
                 {
+                    PaymentMethod =3,
                     SaleDate = DateTime.Now,
                     IdClient = sales.IdClient,
                     IdPaymentStatus = PaymentStatus.Pendente,

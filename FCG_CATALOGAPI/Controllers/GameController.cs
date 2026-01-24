@@ -38,7 +38,7 @@ namespace FCG_CATALOGAPI.Controllers
                 return BadRequest("Preencha as informações do jogo!");
             var retorno = _gameService.Add(game);
             if (retorno.Success)
-                return Ok();
+                return Ok(game);
             else return BadRequest(retorno.Error);
         }
     }

@@ -166,28 +166,6 @@
         }
       }
     },
-    "/api/Sales/GetByIdGame": {
-      "get": {
-        "tags": [
-          "Sales"
-        ],
-        "parameters": [
-          {
-            "name": "idSale",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Sales": {
       "post": {
         "tags": [

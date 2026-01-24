@@ -90,22 +90,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FCG_CATALOGAPI.Controllers.SalesController",
-    "Method": "GetByIdGame",
-    "RelativePath": "api/Sales/GetByIdGame",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idSale",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "FCG_CATALOGAPI.Controllers.LibraryController",
     "Method": "GetByIdClient",
     "RelativePath": "Library/IdCliente",
