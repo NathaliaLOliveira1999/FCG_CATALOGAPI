@@ -20,8 +20,11 @@ namespace FCG_CATALOGAPI.Repositories
         {
             try
             {
-                _context.Libraries.AddRange(libraries);
-                _context.SaveChanges();
+                foreach (var item in libraries)
+                {
+                    _context.Libraries.Add(item);
+                    _context.SaveChanges();
+                }
                 return ServiceResult.Ok(libraries);
             }
             catch (Exception ex)

@@ -30,15 +30,15 @@ namespace FCG_CATALOGAPI.Controllers
             return Ok(sales);
         }
 
-        [Authorize]
-        [HttpGet("GetByIdGame")]
-        public IActionResult GetByIdGame(int idSale)
-        {
-            var sales = _salesService.GetByIdSale(idSale);
-            if (sales == null)
-                return NotFound();
-            return Ok(sales);
-        }
+        //[Authorize]
+        //[HttpGet("GetByIdGame")]
+        //public IActionResult GetByIdGame(int idSale)
+        //{
+        //    var sales = _salesService.GetByIdSale(idSale);
+        //    if (sales == null)
+        //        return NotFound();
+        //    return Ok(sales);
+        //}
 
         [Authorize]
         [HttpPost]
@@ -48,7 +48,7 @@ namespace FCG_CATALOGAPI.Controllers
                 return BadRequest("Preencha as informações da venda!");
             var retorno = _salesService.Add(sale);
             if (retorno.Success)
-                return Ok();
+                return Ok(sale);
             else return BadRequest(retorno.Error);
         }
     }

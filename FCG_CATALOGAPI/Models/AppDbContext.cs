@@ -16,7 +16,7 @@ namespace FCG_CATALOGAPI.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Game>().HasKey(g => g.IdGames);
-            //modelBuilder.Entity<Library>().HasKey(g => g.IdGames);
+            modelBuilder.Entity<Library>().HasKey(s => s.IdClientLibrary);
             modelBuilder.Entity<Sales>().HasKey(s => s.IdSales);
             modelBuilder.Entity<SalesItens>().HasKey(s => s.IdSalesItem);
 

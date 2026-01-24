@@ -17,8 +17,8 @@ namespace FCG_CATALOGAPI.Models
         [Column("TOTALPRICE")]
         public decimal TotalPrice { get; set; }
 
-        [Column("PAYMENTMETHOD")]
-        public string PaymentMethod { get; set; }
+        [Column("IDPAYMENTMETHOD")]
+        public int PaymentMethod { get; set; }
 
         [Column("IDCLIENT")]
         public int IdClient { get; set; }

@@ -44,7 +44,7 @@ namespace FCG_CATALOGAPI.Controllers
                 return BadRequest("Preencha as informações dos jogos!");
             var retorno = _libraryService.Add(games);
             if (retorno.Success)
-                return Ok();
+                return Ok(games);
             else return BadRequest(retorno.Error);
         }
     }

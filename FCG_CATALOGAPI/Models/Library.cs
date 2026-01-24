@@ -7,6 +7,8 @@ namespace FCG_CATALOGAPI.Models
     public class Library
     {
         [Key]
+        [Column("IDCLIENT_LIBRARY")]
+        public int IdClientLibrary { get; set; }
         [Column("IDCLIENT")]
         public int IdClient { get; set; }
         [Column("IDGAMES")]
