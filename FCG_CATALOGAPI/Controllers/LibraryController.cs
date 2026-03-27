@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FCG_CATALOGAPI.Controllers
 {
+    [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class LibraryController : ControllerBase
     {
         private readonly ILibraryService _libraryService;
@@ -16,8 +17,7 @@ namespace FCG_CATALOGAPI.Controllers
             _libraryService = libraryService;
         }
 
-        [Authorize]
-        [HttpGet("/Library/IdCliente")]
+        [HttpGet("GetByIdClient")]
         public IActionResult GetByIdClient(int idClient)
         {
             var listaCliente = _libraryService.GetByIdClient(idClient);
@@ -26,8 +26,7 @@ namespace FCG_CATALOGAPI.Controllers
             return Ok(listaCliente);
         }
 
-        [Authorize]
-        [HttpGet("/Library/IdGame")]
+        [HttpGet("GetByIdGame")]
         public IActionResult GetByIdGame(int idGame)
         {
             var listaGame = _libraryService.GetByIdGame(idGame);
@@ -36,7 +35,6 @@ namespace FCG_CATALOGAPI.Controllers
             return Ok(listaGame);
         }
 
-        [Authorize]
         [HttpPost]
         public IActionResult Create(LibraryDto games)
         {

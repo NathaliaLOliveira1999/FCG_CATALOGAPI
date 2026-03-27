@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FCG_CATALOGAPI.Controllers
 {
-
+    [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class SalesController : ControllerBase
     {
         private readonly ISalesService _salesService;
@@ -20,7 +20,6 @@ namespace FCG_CATALOGAPI.Controllers
         //[HttpGet]
         //public IActionResult GetAll() => Ok(_salesService.GetAll());
 
-        [Authorize]
         [HttpGet("GetByIdClient")]
         public IActionResult GetByIdClient(int idClient)
         {
@@ -40,7 +39,6 @@ namespace FCG_CATALOGAPI.Controllers
         //    return Ok(sales);
         //}
 
-        [Authorize]
         [HttpPost]
         public IActionResult Create(SalesDto sale)
         {

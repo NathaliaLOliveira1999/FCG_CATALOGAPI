@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FCG_CATALOGAPI.Controllers
 {
+    [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class GameController : ControllerBase
     {
         private readonly IGameService _gameService;
@@ -16,11 +17,9 @@ namespace FCG_CATALOGAPI.Controllers
             _gameService = gameService;
         }
 
-        [Authorize]
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll() => Ok(_gameService.GetAll());
 
-        [Authorize]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,7 +29,6 @@ namespace FCG_CATALOGAPI.Controllers
             return Ok(Client);
         }
 
-        [Authorize]
         [HttpPost]
         public IActionResult Create(GameDto game)
         {
