@@ -20,7 +20,7 @@ namespace FCG_CATALOGAPI.Controllers
         [HttpGet("GetAll")]
         public IActionResult GetAll() => Ok(_gameService.GetAll());
 
-        [HttpGet("{id}")]
+        [HttpGet("GetById")]
         public IActionResult GetById(int id)
         {
             var Client = _gameService.GetById(id);

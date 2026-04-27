@@ -1,5 +1,6 @@
 ﻿using FCG_CATALOGAPI.Interfaces.Repositories;
 using FCG_CATALOGAPI.Models;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace FCG_CATALOGAPI.Repositories
 {
@@ -20,6 +21,7 @@ namespace FCG_CATALOGAPI.Repositories
         {
             try
             {
+                game.DTCREATE = DateTime.Now;
                 game.IdGames = 0;
                 _context.Games.Add(game);
                 _context.SaveChanges();
